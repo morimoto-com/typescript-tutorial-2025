@@ -26,10 +26,11 @@ const string: string = 'Hello, World!' // ダブルクォートで文字列
 const templateString: string = `Hello, ${string}` // テンプレートリテラル（変数埋め込み可能）
 const char: string = 'A' // 1文字の文字列
 const empty: string = '' // 空文字列
-console.log(string)
+console.log(string.toUpperCase())
 console.log(templateString)
 console.log(char)
 console.log(empty)
+
 
 // オブジェクト型
 const person: { name: string; age: number } = { name: 'John', age: 30 } // nameが文字列、ageが数値
