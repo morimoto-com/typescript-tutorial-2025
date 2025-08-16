@@ -96,4 +96,5 @@ console.log(add(1,2))
 function printMessage(message: string): void {
     console.log(message)
 }
+console.log(printMessage)
 
